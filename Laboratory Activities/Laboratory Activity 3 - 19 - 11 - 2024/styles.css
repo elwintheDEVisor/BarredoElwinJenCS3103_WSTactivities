@@ -1,0 +1,54 @@
+body {
+    background-color: #f0f4f8;
+    color: #333333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  /* Container styles */
+  .container {
+    text-align: center;
+    width: 60%;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 2px solid #5bc0be;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    color: #333333;
+    margin-bottom: 20px;
+  }
+  
+  /* Textarea styling */
+  textarea {
+    width: 90%;
+    height: 150px;
+    padding: 10px;
+    border: 1px solid #5bc0be;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: inherit;
+    resize: none;
+    background-color: #ffffff;
+    color: #555555;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Word and Sentence Count Display */
+  #wordcount,
+  #sentenceCount {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #555555;
+  }
+  
+  textarea:focus {
+    outline: 2px solid #5bc0be;
+  }
+  
